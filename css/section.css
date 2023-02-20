@@ -1,0 +1,35 @@
+.section1 {
+    background: linear-gradient(#051324,#355985,#63768E,#DEE6E6);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text1 h1 {
+    font-family: 'Audiowide';
+    padding: 0 80px 27px 80px;
+    font-size: 30px;
+}
+
+.text1 h1 span {
+    font-family: 'Audiowide';
+    color:#FD8A69;
+}
+
+.text1 p {
+    padding: 0 50px 0 50px;
+}
+
+.img_reunion img {
+    width: 100%;
+    padding: 20px;
+}
