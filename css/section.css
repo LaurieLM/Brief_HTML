@@ -1,3 +1,4 @@
+/* SECTION 1 */
 .section1 {
     background: linear-gradient(#051324,#355985,#63768E,#DEE6E6);
     display: flex;
@@ -33,3 +34,72 @@
     width: 100%;
     padding: 20px;
 }
+
+/* SECTION 2 */
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px 50px;
+}
+
+.section2 h2 {
+    font-family: 'Audiowide';
+    color: #6C757D;
+}
+
+.card {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 20%;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 10px 10px #A1A1A140;
+    margin: 0 20px 90px 20px;
+    padding: 5px;
+
+}
+
+#card1 {
+    background: #FD8A69;
+}
+
+#card2 {
+    background: #11417D;
+}
+
+#card3 {
+    background: #47A18B;
+}
+
+#card4 {
+    background:#989999 ;
+}
+
+#card5 {
+    background:#11417D ;
+}
+
+#card6 {
+    background:#989999 ;
+}
+
+#card7 {
+    background: #FD8A69;
+}
+
+#card8 {
+    background: #47A18B;
+}
+
+#formations {
+    width: 76%;
+    height: 70px;
+    margin-bottom: 90px;
+    background: rgba(217, 217, 217, 0.8);
+    border-width: thin;
+    border-radius: 10px;
+}
+
