@@ -1,0 +1,93 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  padding: 30px 50px 30px 90px;
+  background: linear-gradient(#051324, #355985, #63768e, #dee6e6);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.contact p {
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.reseaux {
+  display: flex;
+}
+
+.reseaux i {
+  color: #2e4f77;
+  background: #ffffff;
+  font-size: 25px;
+  margin: 10px 5px;
+  padding-top: 5px;
+  border-radius: 18px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+.line {
+    border-left: thick solid;
+    border-width: 1px;
+    height: 206px;
+    margin-top: 28px;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #2e4f77;
+  width: 35%;
+  height: 255px;
+  border-radius: 6px;
+  box-shadow: 3px 3px rgba(253, 138, 105, 0.3);
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 15px 0 40px;
+}
+
+.formulaire p {
+  font-size: 12px;
+}
+
+.formulaire input {
+  margin-bottom: 10px;
+  width: 90%;
+  height: 25px;
+}
+
+.formulaire input::placeholder {
+  font-size: 8px;
+  color: #9da4a4b0;
+}
+
+#btn {
+  background: rgba(253, 138, 105, 0.95);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: thin;
+  width: 80%;
+  height: 30px;
+  border-radius: 2px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+

@@ -1,110 +1,122 @@
 /* SECTION 1 */
 .section1 {
-    background: linear-gradient(#051324,#355985,#63768E,#DEE6E6);
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  background: linear-gradient(#051324, #355985, #63768e, #dee6e6);
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .text1 {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: 20px;
-    color: #FFFFFF;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .text1 h1 {
-    font-family: 'Audiowide';
-    padding: 0 80px 27px 80px;
-    font-size: 30px;
+  font-family: "Audiowide";
+  padding: 0 80px 27px 80px;
+  font-size: 30px;
 }
 
 .text1 h1 span {
-    font-family: 'Audiowide';
-    color:#FD8A69;
+  font-family: "Audiowide";
+  color: #fd8a69;
 }
 
 .text1 p {
-    padding: 0 50px 0 50px;
+  padding: 0 50px 0 50px;
 }
 
 .img_reunion img {
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
 }
 
 /* SECTION 2 */
 .section2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 100px 50px 0px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 100px 50px 0px 50px;
 }
 
 .section2 h2 {
-    font-family: 'Audiowide';
-    color: #6C757D;
+  font-family: "Audiowide";
+  color: #6c757d;
 }
 
 .card {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 600;
-    border: none;
-    width: 20%;
-    height: 180px;
-    border-radius: 20px;
-    box-shadow: 10px 10px #A1A1A140;
-    margin: 0 20px 90px 20px;
-    padding: 5px;
+  display: flex;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 20%;
+  height: 180px;
+  border-radius: 20px;
+  box-shadow: 10px 10px #a1a1a140;
+  margin: 0 20px 90px 20px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
 
+.card p {
+  display: flex;
+}
+
+.card h2 {
+  width: 100%;
 }
 
 #card1 {
-    background: #FD8A69;
+  background: #fd8a69;
 }
 
 #card2 {
-    background: #11417D;
+  background: #11417d;
 }
 
 #card3 {
-    background: #47A18B;
+  background: #47a18b;
 }
 
 #card4 {
-    background:#989999 ;
+  background: #989999;
 }
 
 #card5 {
-    background:#11417D ;
+  background: #11417d;
 }
 
 #card6 {
-    background:#989999 ;
+  background: #989999;
+  padding: 0 63px;
 }
 
 #card7 {
-    background: #FD8A69;
+  background: #fd8a69;
 }
 
 #card8 {
-    background: #47A18B;
+  background: #47a18b;
+  padding: 0px 48px;
 }
 
 #formations {
-    width: 76%;
-    height: 70px;
-    margin-bottom: 90px;
-    background: rgba(217, 217, 217, 0.8);
-    border-width: thin;
-    border-radius: 10px;
+  width: 76%;
+  height: 70px;
+  margin-bottom: 90px;
+  background: rgba(217, 217, 217, 0.8);
+  border-width: thin;
+  border-radius: 10px;
 }
 
 /* SECTION 3 */
 .section3 img {
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
 }
