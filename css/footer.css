@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   color: #ffffff;
   padding: 30px 50px 30px 90px;
@@ -16,7 +17,6 @@ footer {
 .contact p {
   font-weight: 500;
   font-size: 15px;
-  padding-top: 15px;
 }
 
 .reseaux {
@@ -88,6 +88,16 @@ footer {
 h3 {
   font-size: 20px;
   text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.tel {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mail {
+  margin-bottom: 20px;
 }
 
 

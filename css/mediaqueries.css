@@ -1,0 +1,64 @@
+@media screen and (min-width: 800px) {
+    .mobile {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none;
+    }
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section2 {
+        margin: 50px 15px 0px 15px;
+    }
+
+    .card {
+        width: 36%;
+        height: 150px;
+        margin: 0 20px 50px 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+    
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    #card6 {
+        padding: 0 43px;
+    }
+
+    #card8 {
+        padding: 0px 27px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .contact {
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+
+    .reseaux {
+        margin-bottom: 20px;
+    }
+}
+
