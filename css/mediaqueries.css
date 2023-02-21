@@ -6,6 +6,14 @@
     .img_mobile {
         display: none;
     }
+
+    .menuburger {
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
     
 }
 @media screen and (max-width: 800px) {
