@@ -36,14 +36,14 @@
 }
 
 /* SECTION 2 */
-.section2 {
+.section2_desktop {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 100px 50px 0px 50px;
 }
 
-.section2 h2 {
+.section2_desktop h2 {
   font-family: "Audiowide";
   color: #6c757d;
 }
