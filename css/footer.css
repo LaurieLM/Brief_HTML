@@ -14,7 +14,21 @@ footer {
   width: 20%;
 }
 
+.contact_mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
 .contact p {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact_mobile p {
   font-weight: 500;
   font-size: 15px;
 }
@@ -37,6 +51,22 @@ footer {
   border-radius: 20px;
   width: 40px;
   height: 40px;
+  text-align: center;
+}
+
+.reseaux_mobile{
+  align-self: center;
+  margin-top: 20px;
+}
+.reseaux_mobile i {
+  color: #2e4f77;
+  background: #ffffff;
+  font-size: 40px;
+  margin: 10px 10px 10px 0px;
+  padding-top: 14px;
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
   text-align: center;
 }
 
@@ -67,6 +97,8 @@ form {
 
 form p {
   font-size: 12px;
+  align-self: flex-start;
+  margin-left: 6%;
 }
 
 form input {

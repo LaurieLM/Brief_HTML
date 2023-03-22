@@ -7,6 +7,14 @@
         display: none;
     }
 
+    .contact_mobile {
+        display: none;
+    }
+
+    .reseaux_mobile {
+        display: none;
+    }
+
     .img_mobile {
         display: none;
     }
@@ -22,6 +30,10 @@
 }
 @media screen and (max-width: 800px) {
     .desktop {
+        display: none;
+    }
+
+    .contact {
         display: none;
     }
 
@@ -179,6 +191,11 @@
     .contact_form {
         width: 100%;
     }
+
+    form {
+        width: 100%;
+    }
+
 
     .reseaux {
         margin-bottom: 20px;
